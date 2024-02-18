@@ -1,0 +1,193 @@
+body {
+    background-color: white
+}
+
+@keyframes fontmove {
+    50% {
+        translate: -30px 50px;
+    }
+}
+
+@keyframes textcolor {
+    50% {
+        color: darkslateblue;
+    }
+}
+
+@keyframes frame {
+    50% {
+        outline: 0.5cm;
+        outline-color: darkslateblue;
+        outline-style: double;
+    }
+}
+
+#div1 {
+    animation: fontmove 5s infinite;
+}
+
+#div2 {
+    animation: textcolor 4s infinite;
+}
+
+#div3 {
+    animation: frame 3s infinite;
+}
+
+nav {
+    font-size: 150%;
+    font-family: fantasy;
+    font-weight: 1000;
+    font-style: italic;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.button-edit {
+    float: right;
+    justify-content: center;
+    border: 10px;
+    border-style: outset;
+    border-color: darkslateblue;
+    height: 60px;
+    width: 250px;
+    background-color: darkslateblue;
+    text-align: center;
+    font-size: 30px;
+    font-family: fantasy;
+    font-weight: bold;
+    color: rgb(114, 96, 231);
+    margin-top: 150px;
+    margin-right: -5px;
+}
+
+.button-button {
+    float: right;
+    border: 1cm;
+    border-style: outset;
+    border-color: darkslateblue;
+    height: 200px;
+    width: 600px;
+    background-color: darkslateblue;
+    text-align: center;
+    font-size: 70px;
+    font-family: fantasy;
+    font-weight: bold;
+    color: rgb(114, 96, 231);
+    margin-right: 20px;
+}
+
+button:hover {
+    background-color: slateblue;
+    color: rgb(160, 146, 238);
+}
+
+button:focus {
+    background-color: slateblue;
+    color: rgb(160, 146, 238);
+}
+
+button:active {
+    background-color: rgb(160, 146, 238);
+    color: rgb(160, 146, 238);
+    border-color: rgb(160, 146, 238);
+}
+
+a:hover {
+    color: darkslateblue;
+}
+
+a:focus {
+    color: darkslateblue;
+}
+
+a:active {
+    color: darkslateblue;
+}
+
+ol {
+    font-family: 'Times New Roman', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    list-style-type: decimal-leading-zero;
+}
+
+h2 {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    font-size: 900%;
+    color: black;
+    font-family: fantasy;
+}
+
+header {
+    text-align: center;
+    color: white;
+    font-style: oblique;
+    font-family: fantasy;
+    font-size: 400%;
+    background-image: url(Image/cloud.jpg);
+    border: 1cm;
+    width: 1867px;
+    height: 350px;
+    padding: 10px;
+    float: center;
+}
+
+article {
+    display: block;
+    margin-left: 530px;
+    background-color: white;
+    width: 800px;
+    height: 800px;
+    border: 1cm;
+    border-style: solid;
+    border-color: white;
+}
+
+section {
+    height: 440px;
+    font-family: fantasy;
+    font-size: 100%;
+    color: black;
+    background-color: rgb(160, 146, 238);
+    overflow: scroll;
+    border: 1cm;
+    border-color: darkslateblue;
+    border-style: ridge;
+    width: 1813px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.flex-container>content {
+    font-family: fantasy;
+    font-size: 180%;
+    width: 2000px;
+    border: 0.3cm;
+    border-style: double;
+    border-color: black;
+    border-left: 0cm;
+    border-bottom: 0cm;
+    border-top: 0cm;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+footer {
+    margin: 0px;
+    font-style: italic;
+    font-size: 200%;
+    font-family: fantasy;
+    color: black;
+    background-image: url(Image/cloud.jpg);
+    width: 1867px;
+    height: 350px;
+    padding: 10px;
+}
