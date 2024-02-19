@@ -4,6 +4,12 @@
     }
 }
 
+@keyframes fontmove2 {
+    50% {
+        translate: 80px -50px;
+    }
+}
+
 @keyframes textcolor {
     50% {
         color: darkslateblue;
@@ -24,9 +30,10 @@
 
 #div1original {
     position: absolute;
-    color: lightgrey;
+    color: white;
     opacity: 0.3;
     margin-left: 800px;
+    animation: fontmove2 5s infinite;
 }
 
 #div2 {
