@@ -1,12 +1,12 @@
 @keyframes fontmove {
     50% {
-        translate: -80px 50px;
+        translate: -80px 53px;
     }
 }
 
 @keyframes fontmove2 {
     50% {
-        translate: 80px -50px;
+        translate: 80px -53px;
     }
 }
 
