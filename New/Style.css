@@ -1,6 +1,6 @@
 @keyframes fontmove {
     50% {
-        translate: -30px 50px;
+        translate: -80px 50px;
     }
 }
 
@@ -20,6 +20,13 @@
 
 #div1 {
     animation: fontmove 5s infinite;
+}
+
+#div1original {
+    position: absolute;
+    color: lightgrey;
+    opacity: 0.3;
+    margin-left: 800px;
 }
 
 #div2 {
