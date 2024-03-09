@@ -1,0 +1,315 @@
+@keyframes fontmove {
+    50% {
+        translate: -80px 53px;
+    }
+}
+
+@keyframes fontmove2 {
+    50% {
+        translate: 80px -53px;
+    }
+}
+
+@keyframes frame {
+    50% {
+        outline: 0.5cm;
+        outline-color: darkslateblue;
+        outline-style: double;
+    }
+}
+
+@keyframes fontcolor {
+    50% {
+        background-color: darkslateblue;
+        color: rgb(114, 96, 231);
+    }
+}
+
+#div1 {
+    animation: fontmove 5s infinite;
+}
+
+#div1original {
+    position: absolute;
+    color: white;
+    opacity: 0.3;
+    margin-left: 800px;
+    animation: fontmove2 5s infinite;
+}
+
+#div2 {
+    animation: fontcolor 4s infinite;
+}
+
+#div3 {
+    animation: frame 3s infinite;
+}
+
+#image {
+    padding: 40px;
+    width: 800px;
+    font-size: 50px;
+    text-align: center;
+    margin-left: 489px;
+    color: black;
+    background-color: white;
+    background-image: url('');
+    background-size: 150px;
+    border: 10px black double;
+    border-radius: 500px;
+    font-family: fantasy;
+    font-style: italic;
+    box-shadow: 4px 4px 2px 2px black;
+}
+
+#fruits {
+    font-size: 40px;
+    font-family: serif;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+.pic {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.img {
+    width: 500px;
+    height: 500px;
+    border: 10px black double;
+    box-shadow: 4px 4px 2px 2px black;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.button-edit {
+    float: right;
+    justify-content: center;
+    border: 10px;
+    border-style: outset;
+    border-color: darkslateblue;
+    height: 60px;
+    width: 250px;
+    background-color: darkslateblue;
+    text-align: center;
+    font-size: 30px;
+    font-family: fantasy;
+    font-weight: bold;
+    color: rgb(114, 96, 231);
+    margin-top: 40px;
+    margin-right: -5px;
+}
+
+.button-edit2 {
+    float: right;
+    justify-content: center;
+    border: 10px;
+    border-style: outset;
+    border-color: darkslateblue;
+    height: 60px;
+    width: 250px;
+    background-color: darkslateblue;
+    text-align: center;
+    font-size: 30px;
+    font-family: fantasy;
+    font-weight: bold;
+    color: rgb(114, 96, 231);
+    margin-top: 45px;
+    margin-right: 50px;
+    box-shadow: 1.5px 1.5px 8px 8px;
+}
+
+.button-edit3 {
+    justify-content: center;
+    border: 10px;
+    border-style: outset;
+    border-color: darkslateblue;
+    height: 60px;
+    width: 300px;
+    background-color: darkslateblue;
+    text-align: center;
+    font-size: 25px;
+    font-family: fantasy;
+    font-weight: bold;
+    color: rgb(114, 96, 231);
+}
+
+.button-button {
+    border: 1cm;
+    border-style: outset;
+    border-color: darkslateblue;
+    height: 200px;
+    width: 600px;
+    background-color: darkslateblue;
+    text-align: center;
+    font-size: 70px;
+    font-family: fantasy;
+    font-weight: bold;
+    color: rgb(114, 96, 231);
+    float: left;
+    margin-left: 40px;
+}
+
+body {
+    background-color: white
+}
+
+nav {
+    font-size: 150%;
+    font-family: fantasy;
+    font-weight: 1000;
+    font-style: italic;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 8px;
+    margin-left: 5px;
+    padding: 8px;
+    width: 240px;
+    background-color: rgb(160, 146, 238);
+    border: 1px double darkslateblue;
+    box-shadow: 2px 5px;
+}
+
+nav ul li {
+    text-align: center;
+}
+
+nav ul li a {
+    color: black;
+    display: block;
+    width: 208px;
+    padding: 8px 16px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ol {
+    font-family: 'Times New Roman', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    list-style-type: decimal-leading-zero;
+}
+
+h2 {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    font-size: 900%;
+    color: black;
+    font-family: fantasy;
+}
+
+header {
+    text-align: center;
+    color: white;
+    font-style: oblique;
+    font-family: fantasy;
+    font-size: 400%;
+    background-image: url(Image/cloud.jpg);
+    border: 1cm;
+    width: 1867px;
+    height: 350px;
+    padding: 10px;
+    float: center;
+}
+
+article {
+    display: block;
+    margin-left: 530px;
+    background-color: white;
+    width: 800px;
+    height: 800px;
+    border: 1cm;
+    border-style: solid;
+    border-color: white;
+}
+
+section {
+    height: 440px;
+    font-family: fantasy;
+    font-size: 100%;
+    color: black;
+    background-color: rgb(160, 146, 238);
+    overflow: scroll;
+    border: 1cm;
+    border-color: darkslateblue;
+    border-style: ridge;
+    width: 1813px;
+}
+
+.flex-container>div {
+    font-family: fantasy;
+    font-size: 180%;
+    width: 2000px;
+    border: 0.3cm;
+    border-style: double;
+    border-color: black;
+    border-left: 0cm;
+    border-bottom: 0cm;
+    border-top: 0cm;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+footer {
+    margin: 0px;
+    font-style: italic;
+    font-size: 200%;
+    font-family: fantasy;
+    color: black;
+    background-image: url(Image/cloud.jpg);
+    width: 1867px;
+    height: 350px;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: slateblue;
+    color: rgb(160, 146, 238);
+}
+
+button:focus {
+    background-color: slateblue;
+    color: rgb(160, 146, 238);
+}
+
+button:active {
+    background-color: rgb(160, 146, 238);
+    color: rgb(160, 146, 238);
+    border-color: rgb(160, 146, 238);
+}
+
+a:hover {
+    color: darkslateblue;
+}
+
+a:focus {
+    color: darkslateblue;
+}
+
+a:active {
+    color: darkslateblue;
+}
+
+nav ul li a.active {
+    background-color: darkslateblue;
+    color: rgb(160, 146, 238);
+}
+
+nav ul li a:hover:not(.active) {
+    background-color: darkslateblue;
+    color: rgb(160, 146, 238);
+}
