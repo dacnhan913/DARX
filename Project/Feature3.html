@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<!--AUTHOR: PHẠM ĐỖ ĐẮC NHÂN -- 24/01/2024-->
+
+<!--
+                       _oo0oo_
+                      o8888888o
+                      88" . "88
+                      (| -_- |)
+                      0\  =  /0
+                    ___/`---'\___
+                  .' \\|     |// '.
+                 / \\|||  :  |||// \
+                / _||||| -:- |||||- \
+               |   | \\\  -  /// |   |
+               | \_|  ''\---/''  |_/ |
+               \  .-\__  '-'  ___/-. /
+             ___'. .'  /--.--\  `. .'___
+          ."" '<  `.___\_<|>_/___.' >' "".
+         | | :  `- \`.;`\ _ /`;.`/ - ` : | |
+         \  \ `_.   \_ __\ /__ _/   .-` /  /
+     =====`-.____`.___ \_____/___.-`___.-'=====
+                       `=---='
+
+      MONG PHẬT PHÙ HỘ ĐỘ TRÌ KHÔNG BỊ COPY CODE
+-->
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Darx</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='icon' type='Image/x-icon' href='CSS/Image/bee.jpg'>
+    <script src='JS/JJJ.js'></script>
+    <link rel="stylesheet" href="CSS/Style.css">
+</head>
+
+<body onload="loadFruits()">
+    <header>
+        <h1 id="div1original"> DARX</h1>
+        <h1 id="div1">
+            DARX
+        </h1>
+        <button class="button-edit" onclick="document.location='unknown.html'">&#8617; BACK</button>
+    </header>
+    <main>
+        <nav>
+            <ul>
+                <li><a href="index.html" style="color: slateblue;"><b>HOME</b></a></li>
+            </ul>
+        </nav>
+        <nav>
+            <ul>
+                <li><a href="info.html"><b>MY INFORMATION</b></a></li>
+            </ul>
+        </nav>
+        <nav>
+            <ul>
+                <li><a href="list.html"><b>MY FAVOURITE THINGS</b></a></li>
+            </ul>
+        </nav>
+        <nav>
+            <ul>
+                <li><a href="FirstJSLesson.html"><b>FEATURE 1</b></a></li>
+            </ul>
+        </nav>
+        <nav>
+            <ul>
+                <li><a href="feature2.html"><b>FEATURE 2</b></a></li>
+            </ul>
+        </nav>
+        <nav>
+            <ul>
+                <li><a class="active" href="Feature3.html"><b>FEATURE 3</b></a></li>
+            </ul>
+        </nav>
+
+        <table id="div-editor">
+            <td style="animation: fontcolor1 500ms infinite ;margin-top: -10px; margin-bottom: 10px ;text-align: center; font-size: 100px;
+                 font-family: fantasy; font-style: italic; color: white;">
+                Calculator </td>
+
+            <tr>
+                <td><input type="text" id="div-print"></td>
+            </tr>
+
+            <tr id="div-cal">
+                <td><input type="button" value="+" onclick="dis('+')" onkeydown="myFunction(event)" id="button-edit6">
+                </td>
+                <td><input type="button" value="-" onclick="dis('-')" onkeydown="myFunction(event)" id="button-edit6">
+                </td>
+                <td><input type="button" value="x" onclick="dis('*')" onkeydown="myFunction(event)" id="button-edit6">
+                </td>
+                <td><input type="button" value="/" onclick="dis('/')" onkeydown="myFunction(event)" id="button-edit6">
+                </td>
+                <td><input type="button" value="=" onclick="solve()" id="button-edit6">
+                </td>
+            </tr>
+            <br>
+            <tr id="div-cal" style="border-bottom: 0px">
+                <td><input type="button" value="7" onclick="dis('7')" onkeydown="myFunction(event)" id="button-edit4">
+                </td>
+                <td><input type="button" value="8" onclick="dis('8')" onkeydown="myFunction(event)" id="button-edit4">
+                </td>
+                <td><input type="button" value="9" onclick="dis('9')" onkeydown="myFunction(event)" id="button-edit4">
+                </td>
+            </tr>
+            <br>
+            <tr id="div-cal" style="border-bottom: 0px; border-top: 0px;">
+                <td><input type="button" value="4" onclick="dis('4')" onkeydown="myFunction(event)" id="button-edit4">
+                </td>
+                <td><input type="button" value="5" onclick="dis('5')" onkeydown="myFunction(event)" id="button-edit4">
+                </td>
+                <td><input type="button" value="6" onclick="dis('6')" onkeydown="myFunction(event)" id="button-edit4">
+                </td>
+            </tr>
+
+            <br>
+            <tr id="div-cal" style="border-bottom: 0px; border-top: 0px;">
+                <td><input type="button" value="1" onclick="dis('1')" onkeydown="myFunction(event)" id="button-edit4">
+                </td>
+                <td><input type="button" value="2" onclick="dis('2')" onkeydown="myFunction(event)" id="button-edit4">
+                </td>
+                <td><input type="button" value="3" onclick="dis('3')" onkeydown="myFunction(event)" id="button-edit4">
+                </td>
+            </tr>
+
+            <br>
+            <tr id="div-cal" style="border-top: 0px;">
+                <td><input type="button" value="0" onclick="dis('0')" onkeydown="myFunction(event)" id="button-edit4"
+                        style="width: 403px;"></td>
+                <td><input type="button" value="." onclick="dis('.')" onkeydown="myFunction(event)" id="button-edit4"
+                        style="width: 203px;"></td>
+            </tr>
+
+            <br>
+            <tr id="div-cal">
+                <td><input type="button" value="AC" onclick="clr()" id="button-edit5"> </td>
+                <td><input type="button" value="C" onclick="uclr()" id="button-edit5"> </td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <div>
+            <h3>#DesignByDarx&#127911</h3>
+        </div>
+        <div>
+            <a href="https://www.facebook.com/profile.php?id=100092880164501" target="_blank"
+                style="color: white; font-size: 60%;"><img src="CSS/Image/fblogo.png" alt="My Facebook Link"
+                    style="width: 50px; height: 50px;"> My Facebook Link </a>
+        </div>
+        <div>
+            <p style="font-family: 'Courier New', Courier, monospace; font-size: 60%; color: white;">&#128383:
+                +8486696xxxx
+            </p>
+            <address style="font-family: 'Courier New', Courier, monospace; font-size: 60%; color: white;">
+                Address: Mac Thien Tich, Xuan Khanh, Ninh Kieu, Can Tho.
+            </address>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
