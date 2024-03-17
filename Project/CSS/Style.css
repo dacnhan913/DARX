@@ -377,3 +377,26 @@ nav ul li a:hover:not(.active) {
     background-color: darkslateblue;
     color: rgb(160, 146, 238);
 }
+#button-edit6:hover {
+    background-color: rgb(107, 107, 107);
+}
+
+#button-edit6:active {
+    background-color: gray;
+}
+
+#button-edit5:hover {
+    background-color: rgb(107, 107, 107);
+}
+
+#button-edit5:active {
+    background-color: gray;
+}
+
+#button-edit4:hover {
+    background-color: rgb(107, 107, 107);
+}
+
+#button-edit4:active {
+    background-color: gray;
+}
