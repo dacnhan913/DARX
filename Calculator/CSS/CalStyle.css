@@ -1,0 +1,98 @@
+@keyframes fontcolor1 {
+    50% {
+        background-color: darkslateblue;
+        color: slateblue;
+    }
+}
+
+#button-edit4 {
+    font-size: 50px;
+    margin-top: 5px;
+    width: 200.55px;
+    height: 70px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(78, 73, 73);
+    border: 5px black outset;
+    border-radius: 20px;
+}
+
+#button-edit5 {
+    font-size: 50px;
+    width: 303px;
+    height: 70px;
+    background-color: rgb(78, 73, 73);
+    border: 5px black outset;
+    font-weight: bold;
+    font-style: italic;
+    color: darkgray;
+    border-radius: 10px;
+}
+
+#button-edit6 {
+    color: darkgray;
+    font-size: 30px;
+    width: 118.8px;
+    height: 50px;
+    background-color: rgb(78, 73, 73);
+    border: 5px black outset;
+    border-radius: 10px;
+}
+
+#div-cal {
+    display: inline-block;
+    border: 10px black ridge;
+    background-color: rgb(78, 73, 73);
+}
+
+#div-print {
+    padding: 40px;
+    width: 535px;
+    height: 100px;
+    font-size: 100px;
+    color: black;
+    background-color: darkgray;
+    border: 10px black ridge;
+
+}
+
+#div-editor {
+    background-color: darkslateblue;
+    display: inline-block;
+    width: 700px;
+    padding: 20px;
+    margin-top: -80px;
+    margin-bottom: -10px;
+    justify-content: space-around;
+    border: 10px darkslateblue ridge;
+    box-shadow: 5px 5px 5px 5px darkgray;
+}
+
+body {
+    background-color: white;
+    text-align: center;
+}
+
+#button-edit6:hover {
+    background-color: rgb(107, 107, 107);
+}
+
+#button-edit6:active {
+    background-color: gray;
+}
+
+#button-edit5:hover {
+    background-color: rgb(107, 107, 107);
+}
+
+#button-edit5:active {
+    background-color: gray;
+}
+
+#button-edit4:hover {
+    background-color: rgb(107, 107, 107);
+}
+
+#button-edit4:active {
+    background-color: gray;
+}
