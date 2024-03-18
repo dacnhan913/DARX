@@ -51,7 +51,7 @@
     font-size: 100px;
     color: black;
     background-color: darkgray;
-    border: 10px black ridge;
+    border: 10px black inset;
 
 }
 
@@ -63,7 +63,7 @@
     margin-top: -80px;
     margin-bottom: -10px;
     justify-content: space-around;
-    border: 10px rgb(78, 73, 73) ridge;
+    border: 10px rgb(78, 73, 73) outset;
     box-shadow: 5px 5px 5px 5px darkgray;
     opacity: 0.87;
 }
