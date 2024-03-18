@@ -1,7 +1,6 @@
 @keyframes fontcolor1 {
     50% {
-        background-color: darkslateblue;
-        color: slateblue;
+        color: rgb(78, 73, 73);
     }
 }
 
@@ -57,24 +56,25 @@
 }
 
 #div-editor {
-    background-color: darkslateblue;
+    background-color: gray;
     display: inline-block;
     width: 700px;
     padding: 20px;
     margin-top: -80px;
     margin-bottom: -10px;
     justify-content: space-around;
-    border: 10px darkslateblue ridge;
+    border: 10px rgb(78, 73, 73) ridge;
     box-shadow: 5px 5px 5px 5px darkgray;
 }
 
 body {
-    background-color: white;
+    background-image: url(Image/bg1.jpg);
     text-align: center;
 }
 
 #button-edit6:hover {
     background-color: rgb(107, 107, 107);
+    border-radius: 100px;
 }
 
 #button-edit6:active {
@@ -83,6 +83,7 @@ body {
 
 #button-edit5:hover {
     background-color: rgb(107, 107, 107);
+    border-radius: 100px;
 }
 
 #button-edit5:active {
@@ -91,6 +92,7 @@ body {
 
 #button-edit4:hover {
     background-color: rgb(107, 107, 107);
+    border-radius: 100px;
 }
 
 #button-edit4:active {
