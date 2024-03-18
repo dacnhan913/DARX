@@ -65,6 +65,7 @@
     justify-content: space-around;
     border: 10px rgb(78, 73, 73) ridge;
     box-shadow: 5px 5px 5px 5px darkgray;
+    opacity: 0.87;
 }
 
 body {
