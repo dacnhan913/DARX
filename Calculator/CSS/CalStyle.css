@@ -4,6 +4,44 @@
     }
 }
 
+.typing-animation {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3s steps(8, end) infinite;
+}
+
+/* Animation */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+/* Phong cách cho mỗi ký tự */
+.typing-animation span {
+    display: inline-block;
+}
+
+.char1 {
+    animation-delay: 0.1s;
+}
+
+.char2 {
+    animation-delay: 0.5s;
+}
+
+.char3 {
+    animation-delay: 1s;
+}
+
+
 #button-edit4 {
     font-size: 50px;
     margin-top: 5px;
@@ -61,6 +99,19 @@
     opacity: 0.87;
     font-size: 30px;
     font-weight: bold;
+}
+
+.button-welcome {
+    text-align: center;
+    float: left;
+    margin-top: 300px;
+    background-color: gray;
+    border: 10px gray outset;
+    color: white;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 50px;
+    border-radius: 20px;
 }
 
 #iprint {
@@ -155,4 +206,13 @@ body {
 
 #button-edit8:active {
     background-color: rgb(29, 212, 151);
+}
+
+.button-welcome:hover {
+    background-color: rgb(107, 107, 107);
+    border-radius: 100px;
+}
+
+.button-welcome:active {
+    background-color: gray;
 }
