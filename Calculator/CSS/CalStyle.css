@@ -5,7 +5,7 @@
 }
 
 .typing-animation {
-    font-size: 36px;
+    font-size: 5vw;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     white-space: nowrap;
@@ -110,7 +110,7 @@
     color: white;
     font-family: monospace;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 5vw;
     border-radius: 20px;
 }
 
