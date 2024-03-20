@@ -56,7 +56,7 @@ function iundo() {
     document.getElementById('iprint').innerHTML = "";
 }
 
-if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Safari|Zalo/i.test(navigator.userAgent)) {
     // Redirect or show warning message
     window.location.href = "Warning.html";
 }
