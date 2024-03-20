@@ -55,7 +55,7 @@
     left: 290px;
     bottom: 810px;
     background-color: rgb(27, 109, 82);
-    border: 5px rgb(18, 88, 65) solid;
+    border: 5px rgb(18, 88, 65) outset;
     border-radius: 10px;
     opacity: 0.87;
     font-size: 30px;
@@ -149,6 +149,7 @@ body {
 
 #button-edit8:hover {
     background-color: rgb(27, 139, 102);
+    border-radius: 100px;
 }
 
 #button-edit8:active {
