@@ -58,5 +58,5 @@ function iundo() {
 
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Safari|Zalo/i.test(navigator.userAgent)) {
     // Redirect or show warning message
-    window.location.href = "Warning.html";
+    document.location = "Warning.html";
 }
