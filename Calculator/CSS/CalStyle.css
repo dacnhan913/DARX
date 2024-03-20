@@ -1,0 +1,156 @@
+@keyframes fontcolor1 {
+    50% {
+        color: rgb(78, 73, 73);
+    }
+}
+
+#button-edit4 {
+    font-size: 50px;
+    margin-top: 5px;
+    width: 200.55px;
+    height: 70px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(78, 73, 73);
+    border: 5px black outset;
+    border-radius: 20px;
+}
+
+#button-edit5 {
+    font-size: 50px;
+    width: 303px;
+    height: 70px;
+    background-color: rgb(78, 73, 73);
+    border: 5px black outset;
+    font-weight: bold;
+    font-style: italic;
+    color: darkgray;
+    border-radius: 10px;
+}
+
+#button-edit6 {
+    color: darkgray;
+    font-size: 30px;
+    width: 118.8px;
+    height: 50px;
+    background-color: rgb(78, 73, 73);
+    border: 5px black outset;
+    border-radius: 10px;
+}
+
+#button-edit7 {
+    color: black;
+    font-size: 30px;
+    width: 118.8px;
+    height: 50px;
+    background-color: rgb(27, 109, 82);
+    border: 5px rgb(18, 88, 65) outset;
+    border-radius: 10px;
+}
+
+#button-edit8 {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 290px;
+    bottom: 810px;
+    background-color: rgb(27, 109, 82);
+    border: 5px rgb(18, 88, 65) solid;
+    border-radius: 10px;
+    opacity: 0.87;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#iprint {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 130px;
+    left: 200px;
+    margin-left: 20px;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    opacity: 0.8;
+    border-radius: 10px;
+    font-style: italic;
+}
+
+#div-cal {
+    display: inline-block;
+    border: 10px black ridge;
+    background-color: rgb(78, 73, 73);
+}
+
+#div-print {
+    padding: 40px;
+    width: 535px;
+    height: 100px;
+    font-size: 100px;
+    color: black;
+    background-color: darkgray;
+    border: 10px black inset;
+
+}
+
+#div-editor {
+    background-color: gray;
+    display: inline-block;
+    width: 700px;
+    padding: 20px;
+    margin-top: -80px;
+    margin-bottom: -10px;
+    justify-content: space-around;
+    border: 10px rgb(78, 73, 73) outset;
+    box-shadow: 5px 5px 5px 5px rgb(53, 50, 50);
+    opacity: 0.87;
+}
+
+body {
+    background-image: url(Image/bg1.jpg);
+    text-align: center;
+}
+
+#button-edit6:hover {
+    background-color: rgb(107, 107, 107);
+    border-radius: 100px;
+}
+
+#button-edit6:active {
+    background-color: gray;
+}
+
+#button-edit5:hover {
+    background-color: rgb(107, 107, 107);
+    border-radius: 100px;
+}
+
+#button-edit5:active {
+    background-color: gray;
+}
+
+#button-edit4:hover {
+    background-color: rgb(107, 107, 107);
+    border-radius: 100px;
+}
+
+#button-edit4:active {
+    background-color: gray;
+}
+
+#button-edit7:hover {
+    background-color: rgb(27, 139, 102);
+}
+
+#button-edit7:active {
+    background-color: rgb(29, 212, 151);
+}
+
+#button-edit8:hover {
+    background-color: rgb(27, 139, 102);
+}
+
+#button-edit8:active {
+    background-color: rgb(29, 212, 151);
+}
