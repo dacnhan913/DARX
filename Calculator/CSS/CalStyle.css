@@ -1,3 +1,32 @@
+@media screen and (max-width:730px) {
+    .Warning {
+        font-size: 18vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        margin-top: 13vh;
+        justify-content: center;
+        text-align: center;
+    }
+
+    body {
+        background-image: url(Image/wwae.png);
+        background-position-x: -650px;
+        background-position-y: -500px;
+        background-size: 10px;
+    }
+
+    main {
+        display: none;
+    }
+}
+
+@media screen and (min-width:730px) {
+    .Warning {
+        display: none;
+    }
+}
+
+
 @keyframes fontcolor1 {
     50% {
         color: rgb(78, 73, 73);
@@ -143,7 +172,6 @@
     color: black;
     background-color: darkgray;
     border: 10px black inset;
-
 }
 
 #div-editor {
@@ -160,7 +188,7 @@
     opacity: 0.87;
 }
 
-body {
+main {
     background-image: url(Image/bg1.jpg);
     text-align: center;
 }
