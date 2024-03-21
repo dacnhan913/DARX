@@ -1,18 +1,9 @@
 @media screen and (max-width:730px) {
     .Warning {
-        font-size: 18vw;
+        font-size: 13vw;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-weight: bold;
-        margin-top: 13vh;
-        justify-content: center;
         text-align: center;
-    }
-
-    body {
-        background-image: url(Image/wwae.png);
-        background-position-x: -650px;
-        background-position-y: -500px;
-        background-size: 10px;
     }
 
     main {
