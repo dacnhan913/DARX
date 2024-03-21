@@ -155,6 +155,7 @@
     margin-bottom: -10px;
     justify-content: space-around;
     border: 10px rgb(78, 73, 73) outset;
+    border-radius: 20px;
     box-shadow: 5px 5px 5px 5px rgb(53, 50, 50);
     opacity: 0.87;
 }
