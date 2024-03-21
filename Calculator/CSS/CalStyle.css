@@ -216,3 +216,7 @@ body {
 .button-welcome:active {
     background-color: gray;
 }
+
+#div-print:hover {
+    background-color: rgb(204, 204, 204);
+}
