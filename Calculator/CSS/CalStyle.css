@@ -15,6 +15,11 @@
     .Warning {
         display: none;
     }
+
+    .warningc {
+        display: none;
+    }
+    }
 }
 
 
