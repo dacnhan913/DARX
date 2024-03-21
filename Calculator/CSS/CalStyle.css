@@ -180,11 +180,9 @@
     opacity: 0.87;
 }
 
-main {
+body {
     background-image: url(Image/bg1.jpg);
     text-align: center;
-    margin: -8px;
-    height: 945px;
 }
 
 #button-edit6:hover {
