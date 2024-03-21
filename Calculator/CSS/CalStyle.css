@@ -1,9 +1,10 @@
 @media screen and (max-width:730px) {
-    .Warning {
+    #Warning {
         font-size: 13vw;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-weight: bold;
         text-align: center;
+        margin-top: 15vh;
     }
 
     main {
@@ -12,11 +13,7 @@
 }
 
 @media screen and (min-width:730px) {
-    .Warning {
-        display: none;
-    }
-
-    .warningc {
+    #Warning {
         display: none;
     }
 }
