@@ -1,10 +1,14 @@
 @media screen and (max-width:730px) {
-    #Warning {
-        font-size: 13vw;
+    .Warning {
+        font-size: 8vw;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-weight: bold;
         text-align: center;
         margin-top: 2vh;
+    }
+
+    .wc {
+        display: none;
     }
 
     main {
@@ -12,12 +16,33 @@
     }
 }
 
-@media screen and (min-width:730px) {
-    #Warning {
+@media screen and (min-width:730px) and (max-width:2500px) {
+    .Warning {
+        display: none;
+    }
+
+    .wc {
         display: none;
     }
 }
 
+@media screen and (min-width:2500px) {
+    .Warning {
+        display: none;
+    }
+
+    .wc {
+        font-size: 8vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 10vh;
+    }
+
+    main {
+        display: none;
+    }
+}
 
 @keyframes fontcolor1 {
     50% {
