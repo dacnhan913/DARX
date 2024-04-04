@@ -4,12 +4,6 @@ function firstStep() {
         document.write(msg);
     }
 
-    //Password = 00000000
-    var password = "";
-    while (password == null || password == "" || password != "00000000") {
-        password = prompt("Password:");
-    }
-
     //Hỏi Nơi Người Dùng Ở
     var region = "";
     while (region == null || region == "") {
